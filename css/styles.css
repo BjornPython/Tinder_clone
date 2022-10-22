@@ -1,0 +1,329 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+/* TOP PART */
+.container-fluid {
+  padding: 0 15% 0 15%;
+}
+
+.dl-btn {
+  margin: 5% 3% 0 0;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  padding-bottom: 3%;
+  overflow: hidden;
+}
+
+#top-part {
+  height: 700px;
+}
+
+#phone {
+  margin-top: 5%;
+  transform: rotate(20deg);
+  width: 60%;
+}
+
+#headers {
+  margin-top: 4%;
+  margin-bottom: 15%;
+
+}
+/* NAV BARS CLASSES */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
+
+
+/* FEATURES CLASSES */
+.feature-margin {
+  padding: 4%;
+}
+/* FEATURES ID*/
+#features {
+  background-color: white;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+/* ICONS IN FEATURES */
+#check-circle {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+#check-circle:hover {
+  color: #ff4c68;
+}
+
+#bullseye {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+#bullseye:hover {
+  color: #ff4c68;
+}
+
+#heart {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+#heart:hover {
+  color: #ff4c68;
+}
+
+
+/* PARAGRAPHS IN FEATURES */
+.feature-p {
+  font-family: 'Montserrat-bold', sans-serif;
+  color: #8f8f8f;
+}
+
+/*TESTIMONIALS CLASSES */
+.testimonials-headers {
+  margin-bottom: 5%;
+  color: white;
+  font-size: 3.5rem;
+}
+
+.testimonials-div {
+  padding: 7% 15%;
+}
+
+.testimonials-img {
+  margin-right: 3%;
+  width: 10%;
+  border-radius: 100%;
+}
+
+.testimonials-em {
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* TESTIMONIALS IDS */
+#testimonials {
+  background-color: #ff4c68;
+}
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 2%;
+}
+
+/* PRICES */
+#pricing {
+  margin-bottom: 5%;
+}
+
+#prices {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+
+/* PRESS */
+.brands {
+  margin-left: 13%;
+  margin-right: 13%;
+  padding-top: 2%;
+}
+
+.press-img {
+  width: 80%;
+}
+
+/* PRICING CLASSES */
+.card {
+  width: 18rem;
+  height: 24rem;
+  color: #ef8172;
+  border-color: #ef8172;
+}
+
+.cards {
+  margin-top: 5%;
+}
+
+.card-header {
+  color: #ef8172;
+}
+
+.card-body {
+  color: #ef8172;
+}
+
+.pricing-card-title {
+  color: #ff4c68;
+}
+
+.sgn-up-btn {
+  color: #ff4c68;
+  border-color: #ef8172;
+}
+
+.sgn-up-btn:hover {
+  color: white;
+  border-color: #ff4c68;
+  background-color: #ff4c68;
+}
+
+.sgn-up-btn2 {
+  color: white;
+  border-color: #ff4c68;
+  background-color: #ff4c68;
+}
+
+.sgn-up-btn2:hover {
+  color: white;
+  border-color: #ef8172;
+  background-color: #ef8172;
+}
+
+/* FOOTER CLASSES */
+.footer-head {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 3%;
+}
+
+.footer-btn1 {
+  color: white;
+  margin-right: 2%;
+}
+
+.footer-btn2 {
+  color: #ff4c68;
+  border-color: white;
+  background-color: white;
+  margin-left: 2%;
+  btn-active-color: #ef8172;
+}
+
+.footer-btn2:hover {
+  background-color: #ef8172;
+  border-color: #ef8172;
+}
+
+
+/* CTA CLASSES */
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 10% 5%;
+}
+
+
+/* lAST FOOTER CLASSES */
+
+
+.socmed-icon {
+  margin-left: 1%;
+  margin-right: 1%;
+  font-size: 30px;
+  color: #ff4c68;
+}
+
+.copyright-txt {
+  color: gray;
+}
+
+/* lAST FOOTER ID */
+#last-footer {
+  background-color: white;
+  padding: 8% 0% 1%;
+}
+
+
+
+
+/* FOR PHONE SIZE SCREENS */
+@media (max-width: 990px) {
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  /* TOP PART */
+  .dl-btn {
+    margin-top: 10%;
+    width: 150px;
+  }
+
+  .container-fluid {
+    padding: 0% 5%;
+  }
+
+  #top-part {
+    height: auto;
+  }
+
+  #headers {
+    text-align: center;
+  }
+
+
+  #phone {
+    margin-top: 0%;
+    margin-bottom: 3%;
+    transform: rotate(0deg);
+  }
+
+
+  /* TESTIMONIALS CLASSES */
+  .testimonials-headers {
+    font-size: 2.5rem;
+  }
+
+  .testimonials-img {
+    width: 100px;
+    margin-bottom: 8%;
+  }
+
+  .testimonials-em {
+    font-size: 1rem;
+  }
+
+
+  /*PRESS CLASSES */
+  .press-img {
+    width: 200px;
+  }
+
+
+}
